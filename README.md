@@ -21,7 +21,7 @@ Variables:
  * VRID: virtual router_id, defaults to 40
  * PRIORITY: priority of this instance, defaults to 100. Should be incremented if we want some instace to become master
  * IFACE: interface where keepalived should be configured
- * VIP: virtual ip configured by keepalived
+ * VIP: virtual ip configured by keepalived (multiples values separated by comma)
 
 ## Run
 Example to run two containers, incrementing priority in the first one to become master:
